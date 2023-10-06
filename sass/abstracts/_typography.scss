@@ -1,8 +1,8 @@
-$ff-sans: "Lato", sans-serif;
-$ff-serif: "Abril Fatface", serif;
+$_ff-sans: "Source Sans Pro", sans-serif;
+$_ff-serif: "Alegreya SC", serif;
 
-$ff-base: $ff-sans;
-$ff-accent: $ff-serif;
+$font-family-base: $_ff-sans;
+$font-family-accent: $_ff-serif;
 
 $font-sizes: (
   900: clamp(2.5rem, 0.5rem + 10vw, 5rem),
