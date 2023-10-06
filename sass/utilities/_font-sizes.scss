@@ -5,7 +5,7 @@
     @if $screen-size == small {
       .fs-#{$size-name} {
         font-size: var(--fs-#{$size-name});
-        @if $size-name > 600 {
+        @if $size-value > 600 {
           line-height: 1.1;
         }
       }
