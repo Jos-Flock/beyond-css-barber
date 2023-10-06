@@ -85,3 +85,24 @@ $card-font-family: $body-font-family;
 $card-line-height: 1.25;
 $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-600;
+
+
+
+// Site Header
+$site-header-background-color: $color-primary-800;
+$site-header-color: $color-neutral-100;
+$site-header-padding: $size-8 0;
+$site-header-margin: 0;
+$site-header-justification: space-between;
+$site-header-alignment: flex-start; // is start in lesson -> vite tells me that flex-start is better
+
+
+
+// Navigation
+$navigation-color: $site-header-color;
+$navigation-color-hover: $color-primary-400; // is 300 in the lesson?
+$navigation-font-family: $font-family-accent;
+$navigation-font-size: $font-size-400;
+$navigation-font-weight: $font-weight-bold;
+$navigation-letter-spacing: $letter-spacing-loose; // is wide in the lesson?
+$navigation-spacing: $size-9;
