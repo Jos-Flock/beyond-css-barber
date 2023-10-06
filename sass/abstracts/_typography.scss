@@ -13,5 +13,10 @@ $font-sizes: (
   300: 1rem,
 );
 
-$fw-400: 400;
-$fw-700: 700;
+$_fw-400: 400;
+$_fw-500: 500;
+$_fw-700: 700;
+
+$font-weight-default: $_fw-400;
+$font-weight-semi-bold: $_fw-500;
+$font-weight-bold: $_fw-700;
