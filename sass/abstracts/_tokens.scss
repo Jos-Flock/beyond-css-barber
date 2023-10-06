@@ -2,6 +2,13 @@
 @use 'typography' as *;
 @use 'sizes' as *;
 
+$color-text-default: $color-primary-700;
+$color-text-inversed: $color-primary-200;
+$color-background-default: $color-primary-100;
+$color-background-inversed: $color-primary-800;
+$color-text-interactive-default: $color-accent-400;
+$color-text-interactive-hover: $color-accent-500;
+
 // Layout
 $grid-gap: $size-6;
 $flex-group-gap: $size-4;
