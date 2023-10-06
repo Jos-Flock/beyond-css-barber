@@ -12,6 +12,8 @@ $color-text-interactive-hover: $color-accent-500;
 
 $letter-spacing-loose: 0.16em;
 
+
+
 // Body
 $body-font-family: $font-family-base;
 $body-font-size: $font-size-400;
@@ -22,6 +24,7 @@ $body-background-color: $color-background-default;
 
 $link-color: $color-text-interactive-default;
 $link-color-hover: $color-text-interactive-hover;
+
 
 
 // Layout
@@ -37,3 +40,24 @@ $container-min-margin-inline: $size-4;
 $container-max-width-narrow: 40rem;
 $container-max-width: 64rem;
 $container-max-width-wide: 75rem;
+
+
+
+// Buttons
+$button-font-family: $body-font-family;
+$button-font-size: $body-font-size;
+$button-font-weight: $font-weight-bold;
+$button-text-transform: none;
+$button-padding: .75em 2em;
+$button-border: 0;
+$button-border-radius: $size-2;
+
+$button-accent-color: $color-neutral-100;
+$button-accent-background: $color-accent-400;
+$button-accent-color-hover: $color-neutral-100;
+$button-accent-background-hover: $color-accent-500;
+$button-primary-color: $color-neutral-100;
+$button-primary-background: $color-primary-700;
+$button-primary-color-hover: $color-neutral-100;
+$button-primary-background-hover: $color-primary-800;
+
