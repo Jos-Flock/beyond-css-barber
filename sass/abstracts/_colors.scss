@@ -29,6 +29,24 @@ $colors: (
   ),
 );
 
+$dark: (
+  neutral: (
+    100: $-clr-brown-800,
+  ),
+  accent: (
+    400: $-clr-orange-300,
+    500: $-clr-orange-500,
+  ),
+  primary: (
+    100: $-clr-brown-900,
+    200: $-clr-brown-800,
+    300: $-clr-brown-400,
+    400: $-clr-brown-300,
+    700: $-clr-brown-200,
+    800: $-clr-brown-100,
+  ),
+);
+
 // contextual color tokens
 $color-neutral-100: var(--neutral-100);
 $color-accent-300: var(--accent-300);
