@@ -1,0 +1,26 @@
+@use '../abstracts' as *;
+@use '../utilities/flex-group' as *;
+
+.hours-list {
+  --grid-gap: 0;
+  text-align: center;
+  justify-items: center;
+
+  & > div {
+    --flex-column-gap: 0.5rem;
+    @extend .flex-group;
+    flex-direction: column;
+    position: relative;
+    padding-inline: 2.5rem;
+
+    ::before {
+      position: absolute;
+      content: "";
+      width: 0.0625rem;
+      height: 1.625rem;
+      background-color: $color-primary-700;
+      left: 0;
+      top: 20px;
+    }
+  }
+}
