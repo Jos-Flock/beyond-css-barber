@@ -152,6 +152,44 @@
     </div>
   </section>
 
+  <section class="section">
+    <div class="container flow" data-type="wide" style="--flow-spacer: 3.75rem;">
+      <div class="heading-group mx-auto">
+        <div class="heading-2 uppercase text-center">Book an appointment</div>
+        <div class="heading-4 text-center">Please fill out the form below to book your appointment</div>
+      </div>
+      <div class="container" data-type="narrow">
+        <form action="POST" class="contact-form">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input id="name" type="text" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail address</label>
+            <input type="email" id="email" placeholder="johnny1999@gmail.com" required>
+          </div>
+          <div class="form-group">
+            <label for="date">Date</label>
+            <input id="date" type="date" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="service">Select service</label>
+            <input id="service" type="text" required>
+          </div>
+          <div class="form-group">
+            <label for="barber">Barber's name <span class="fw-regular">(optional)</span></label>
+            <input id="barber" type="text">
+          </div>
+          <button class="button" data-type="accent">Book appointment</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
 
   <script type="module" src="/main.js"></script>
 </body>
