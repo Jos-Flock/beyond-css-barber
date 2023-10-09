@@ -16,7 +16,9 @@ $border-radius-2: $size-4;
 $box-shadow-1: 0 $size-1 $size-4 rgb(0 0 0 / 0.05);
 $box-shadow-2: 0 $size-1 $size-4 rgb(0 0 0 / 0.15);
 
-// body
+
+
+// Body
 $body-font-family: $font-family-base;
 $body-font-size: $font-size-400;
 $body-line-height: 1.5;
@@ -34,7 +36,9 @@ $heading-letter-spacing: $letter-spacing-loose;
 $heading-line-height: 1;
 $heading-text-transform: uppercase;
 
-// layout
+
+
+// Layout
 $grid-gap: $size-6;
 $flex-group-gap: $size-4;
 
@@ -75,8 +79,9 @@ $footer-link-font-family: $font-family-accent;
 $button-font-family: $body-font-family;
 $button-font-size: $font-size-600;
 $button-font-weight: $font-weight-bold;
+$button-line-height: 1;
 $button-text-transform: none;
-$button-padding: 0.75em 2em;
+$button-padding: .75em 2em;
 $button-border: 0;
 $button-border-radius: $border-radius-1;
 
@@ -84,6 +89,7 @@ $button-accent-color: $color-neutral-100;
 $button-accent-background: $color-accent-400;
 $button-accent-color-hover: $color-neutral-100;
 $button-accent-background-hover: $color-accent-500;
+
 $button-primary-color: $color-neutral-100;
 $button-primary-background: $color-primary-700;
 $button-primary-color-hover: $color-neutral-100;

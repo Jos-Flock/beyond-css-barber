@@ -5,8 +5,8 @@ $_clr-orange-400: hsl(8, 62%, 55%);
 $_clr-orange-500: hsl(8, 62%, 35%);
 $_clr-brown-100: hsl(30, 24%, 92%);
 $_clr-brown-200: hsl(32, 25%, 88%);
-$_clr-brown-400: hsl(33, 23%, 69%);
-$_clr-brown-500: hsl(22, 31%, 44%);
+$_clr-brown-300: hsl(33, 23%, 69%);
+$_clr-brown-400: hsl(22, 31%, 44%);
 $_clr-brown-700: hsl(20, 23%, 23%);
 $_clr-brown-800: hsl(16, 22%, 10%);
 
@@ -22,8 +22,8 @@ $colors: (
   primary: (
     100: $_clr-brown-100,
     200: $_clr-brown-200,
+    300: $_clr-brown-300,
     400: $_clr-brown-400,
-    500: $_clr-brown-500,
     700: $_clr-brown-700,
     800: $_clr-brown-800,
   ),
@@ -36,7 +36,7 @@ $color-accent-400: var(--accent-400);
 $color-accent-500: var(--accent-500);
 $color-primary-100: var(--primary-100);
 $color-primary-200: var(--primary-200);
+$color-primary-300: var(--primary-300);
 $color-primary-400: var(--primary-400);
-$color-primary-500: var(--primary-500);
 $color-primary-700: var(--primary-700);
 $color-primary-800: var(--primary-800);
