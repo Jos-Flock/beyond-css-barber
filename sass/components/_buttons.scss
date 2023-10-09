@@ -4,7 +4,7 @@
   display: inline-flex;
   cursor: pointer;
   text-decoration: none;
-  line-height: 1;
+  line-height: $button-line-height;
   font-family: $button-font-family;
   font-size: $button-font-size;
   text-transform: $button-text-transform;

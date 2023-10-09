@@ -10,8 +10,13 @@
   line-height: $card-line-height;
   border-radius: $card-border-radius;
   box-shadow: $card-box-shadow;
+  text-align: center;
 
   &__heading {
     @include heading($card-heading-font-size, $heading-color-default);
+  }
+
+  &__content {
+    color: $body-text-color;
   }
 }
