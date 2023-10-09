@@ -5,10 +5,14 @@
   background-color: $site-header-background-color;
   padding: $site-header-padding;
 
-  &__layout {
+  &__inner {
     display: flex;
     gap: $size-4;
     align-items: $site-header-alignment;
-    justify-content: $site-header-justification;
+    justify-content: $site-header-jusitifcation-small-screens;
+
+    @include mq(medium) {
+      justify-content: $site-header-jusitifcation-large-screens;
+    }
   }
 }
