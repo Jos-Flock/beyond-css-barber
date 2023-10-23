@@ -1,0 +1,16 @@
+@use '../abstracts' as *;
+
+.logo {
+  fill: $logo-fill-default;
+  max-width: $logo-size-default;
+
+  .site-header & {
+    fill: $logo-fill-header;
+    width: $logo-size-header;
+  }
+
+  .site-footer & {
+    fill: $logo-fill-footer;
+    width: $logo-size-footer;
+  }
+}
