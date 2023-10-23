@@ -1,5 +1,5 @@
 {
-  "name": "website-starter-template",
+  "name": "kpds",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -8,9 +8,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "postcss-preset-env": "^7.8.3",
-    "sass": "^1.52.3",
-    "vite": "^2.9.9",
+    "postcss-preset-env": "^8.4.2",
+    "sass": "^1.63.3",
+    "vite": "^4.3.9",
     "vite-plugin-html-purgecss": "^0.1.1"
   }
 }

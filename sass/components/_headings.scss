@@ -1,39 +1,20 @@
 @use '../abstracts/' as *;
-@use  '../utilities/flex-group' as *;
 
 .heading-1 {
   @include heading(
-    $font-size-900,
-    $color-accent-400
+    $heading-1-font-size,
+    $heading-1-color
   );
 }
-
 .heading-2 {
   @include heading(
-    $font-size-800,
-    $color-accent-400
+    $heading-2-font-size,
+    $heading-2-color
   );
 }
-
 .heading-3 {
   @include heading(
-    $font-size-700,
-    $color-primary-400
+    $heading-3-font-size,
+    $heading-3-color
   );
-}
-
-.heading-4 {
-  @include heading(
-    $font-size-600,
-    $color-primary-700,
-    $font-weight-default
-  );
-  font-family: $font-family-base;
-  text-transform: unset;
-}
-
-.heading-group {
-  --flex-column-gap: #{$size-5};
-  @extend .flex-group;
-  flex-direction: column;
 }

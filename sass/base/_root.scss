@@ -1,9 +1,19 @@
-@use '../abstracts' as *;
+@use "../../../../../Downloads/website-starter-template-v3-master/sass/abstracts/index" as *;
 
 :root {
-  @each $color, $shade-map in $colors {
+  @each $color, $shade-map in $active-theme {
     @each $shade, $value in $shade-map {
       --#{$color}-#{$shade}: #{$value};
+    }
+  }
+
+  @if ($enable-media-query-dark-mode) {
+    @media (prefers-color-scheme: dark) {
+      @each $color, $shade-map in $dark {
+        @each $shade, $value in $shade-map {
+          --#{$color}-#{$shade}: #{$value};
+        }
+      }
     }
   }
 
@@ -20,5 +30,4 @@
       }
     }
   }
-
 }
